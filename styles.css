@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    border: 1px solid red;
+    min-height: 100vh;
+    display: flex;
+}
+
+.containerLeft {
+    min-height: 100vh;
+    border: 1px solid green;
+    width: 35vw;
+}
+
+.containerRight {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: 1px solid blue;
+}
+
+.containerRight > div {
+    border: 1px dotted orange;
+    flex-grow: 1;
+}
+
+.containerTopRight {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 10px;
+}
+
+.containerTopRight > p:first-child {
+   font-size: 32px;
+   max-width: 90%;
+}
