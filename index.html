@@ -26,12 +26,12 @@
             </div>
         </div>
         <div class="containerForm" id="containerForm">
-            <form id="sign-up">
+            <form id="sign-up" onsubmit="return checkPass();">
                 <ul>
                     <div class="row">
                         <li>
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" id="first-name" name="first-name">
+                            <input type="text" id="first-name" name="first-name" required>
                         </li>
                         <li>
                             <label for="last-name">LAST NAME</label>
@@ -51,11 +51,11 @@
                     <div class="row">
                         <li>
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" required>
                         </li>
                         <li>
                             <label for="confirmPassword">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirmPassword" name="confirmPassword">
+                            <input type="password" id="confirmPassword" name="confirmPassword" required>
                         </li>
                     </div>
                 </ul>

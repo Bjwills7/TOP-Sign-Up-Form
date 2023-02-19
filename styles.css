@@ -144,3 +144,14 @@ a {
 .logo > img {
     height: 80%;
 }
+
+input:focus {
+    outline: none;
+    border: 2px solid blue;
+    box-shadow: 0 0 2px;
+}
+
+.error {
+    border: 2px solid red;
+}
+
