@@ -151,7 +151,7 @@ input:focus {
     box-shadow: 0 0 2px;
 }
 
-.error {
+#sign-up .error {
     border: 2px solid red;
 }
 
